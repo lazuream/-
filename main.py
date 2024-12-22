@@ -498,7 +498,7 @@ class MainWindow(QMainWindow):
             if not ok1:
                 return None
 
-            if kernel_size > 3 and kernel_size % 2 == 1:
+            if kernel_size >= 3 and kernel_size % 2 == 1:
                 break
             else:
                 QMessageBox.warning(self, "无效输入", "滤波器大小必须是大于3的奇数，请重新输入。")
@@ -547,7 +547,7 @@ class MainWindow(QMainWindow):
             if not ok1:
                 return None
 
-            if kernel_size > 3 and kernel_size % 2 == 1:
+            if kernel_size >= 3 and kernel_size % 2 == 1:
                 break
             else:
                 QMessageBox.warning(self, "无效输入", "滤波器大小必须是大于3的奇数，请重新输入。")
