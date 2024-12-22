@@ -27,7 +27,7 @@
 2. 进入项目所在文件夹。
 3. 输入以下命令进行打包：
    ```bash
-   pyinstaller -F -w main.pyz(注意：使用 -D 打包全部文件可能会导致 python39.dll 文件缺失的问题。)
+   pyinstaller -F -w main.py(注意：使用 -D 打包全部文件可能会导致 python39.dll 文件缺失的问题。)
 4. 如果希望添加新东西，比如一些 icon 文件，则输入以下命令：
    ```bash
    pyinstaller -F -w -i "文件地址" main.py（注意：文件地址不需要引号）
