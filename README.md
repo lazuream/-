@@ -7,6 +7,7 @@
 
 ## 主要环境依赖
 
+- Python 3.9.1
 - scipy 1.13.1
 - pyinstaller 6.11.1
 - pyinstaller-hooks-contrib 2024.10
